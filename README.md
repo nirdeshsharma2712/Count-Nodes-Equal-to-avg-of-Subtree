@@ -20,6 +20,9 @@ We perform a **post-order traversal** of the tree, and for each node, we:
 ## ✅ Example Walkthrough
 
 ### Example 1
+
+<img src = "https://assets.leetcode.com/uploads/2022/03/15/image-20220315203925-1.png">
+
 ##### Input: [4,8,5,0,1,null,6]
 ##### Output: 5
 
@@ -29,6 +32,14 @@ We perform a **post-order traversal** of the tree, and for each node, we:
 > - Node 0 → 0 / 1 = 0 ✅
 > - Node 1 → 1 / 1 = 1 ✅
 > - Node 6 → 6 / 1 = 6 ✅
+
+### Example 2
+
+<img src = "https://assets.leetcode.com/uploads/2022/03/26/image-20220326133920-1.png">
+
+##### Input: root = [1]
+##### Output: 1
+
 
 ## 🛠️ Constraints
 
